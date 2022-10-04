@@ -1,8 +1,7 @@
 package conversions;
 
 public class DecimalToBinary{
-    
-    public static int decToBin(int n) {
+    public static int decToBin(int n){
         int bin = 0, count = 0, rem;
         while (n != 0) {
             rem = n % 2;
@@ -12,8 +11,7 @@ public class DecimalToBinary{
         }
         return bin;
     }
-    
-    public static void main(String args[]){
+    public static void main(String[] args) {
         System.out.println(decToBin(38));
     }
 }
