@@ -13,6 +13,6 @@ public class DecimalToOctal {
         }
     }
     public static void main(String[] args){
-        decToOct(867503);
+        decToOct(29043850);
     }
 }
