@@ -23,7 +23,7 @@ public class CombSort {
     public static void main(String args[]){
         int array[] = {56, 85, 23, 57, 24, 12, 88, 91};
         sort(array);
-        for (int i = 0; i < array.length; ++i)
+        for (int i = 0; i < array.length; i++)
             System.out.print(array[i] + " ");
     }
 }
