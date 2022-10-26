@@ -9,7 +9,7 @@ public class BinarySearch{
             if (arr[mid] > key)
                 return binarySearch(arr, low, mid-1, key);  
             else
-            return binarySearch(arr, mid+1, high, key); 
+                return binarySearch(arr, mid+1, high, key); 
         }  
         return -1;  
     }  
